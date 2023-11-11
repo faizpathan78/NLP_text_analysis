@@ -1,0 +1,29 @@
+1.Instructions for Running the Project:
+ **Libraries Installation:**
+   Ensure you have the necessary Python libraries installed. You can install them using the following command:
+
+   Command : 
+   pip install pandas requests beautifulsoup4 nltk html5lib
+
+2. Directory Setup 
+
+Project Root
+├── text_analysis.py
+├── Input.xlsx
+├── MasterDictionary
+│   └── positive-words.txt
+│   └── negative-words.txt
+├── Stopwords
+│   └── StopWords_Names.txt
+│   └── StopWords_Geographic.txt
+│   └── StopWords_GenericLong.txt
+│   └── StopWords_Generic.txt
+│   └── StopWords_DatesandNumbers.txt
+│   └── StopWords_Currencies.txt
+│   └── StopWords_Auditor.txt
+└── Output Data Structure.xlsx
+
+Note : If changes are made to the directory structure necessary changes have to be made to made 
+       just for accessing the Stopwords and MasterDictionary
+
+3.Run the .py file and the Output Data Structure.xlsx will be generated in same level as the code file.
